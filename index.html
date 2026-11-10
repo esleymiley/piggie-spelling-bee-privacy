@@ -20,13 +20,13 @@
 <body>
 <main>
 <h1>Piggie Spelling Bee privacy policy</h1>
-<p class="meta">Piggits Games · Effective 30 October 2026 · Applies to the Piggie Spelling Bee app for Android (package <code>com.piggitsgames.spelling</code>)</p>
+<p class="meta">Piggits Games · Effective 10 November 2026 · Applies to the Piggie Spelling Bee app for Android (package <code>com.piggitsgames.spelling</code>)</p>
 
 <h2>The short version</h2>
 <ul>
   <li>Piggie Spelling Bee has no accounts, no sign-up, no ads and no analytics.</li>
-  <li>A child's progress, settings and word lists are stored on the device and nowhere else.</li>
-  <li>The only information that leaves the device is what Google Play and our billing provider need to process a Piggie Plus purchase: a purchase receipt, a random identifier and basic app and device details. No name, email, address or location is involved.</li>
+  <li>A child's progress, settings and word lists are stored on the device. Android's own backup may keep an end-to-end encrypted copy in your Google Drive, or move it to a new phone; we never receive it.</li>
+  <li>Apart from that backup, which stays in your own Google account, the only information that leaves the device is what Google Play and our billing provider need to process a Piggie Plus purchase: a purchase receipt, a random identifier and basic app and device details. No name, email, address or location is involved.</li>
   <li>We do not knowingly collect personal information from children, and the app does not ask for any.</li>
 </ul>
 
@@ -36,27 +36,27 @@
   <li>learning progress, scores, mastered and missed words, starred words and save points;</li>
   <li>settings such as the spelling level, the spelling policy (American or British) and parent reward settings;</li>
   <li>word lists that a parent or child types in or imports, and an optional profile name typed in Settings;</li>
-  <li>the current state of a Piggie Plus subscription, so the app knows what to unlock while offline.</li>
+  <li>whether Piggie Plus has been bought, so the app knows what to unlock while offline.</li>
 </ul>
-<p>These records never leave the device unless you export them yourself (see <em>Files you save</em>). Your device's own Android backup may also copy the app's data to your Google Drive, under your Google account's backup settings. Uninstalling the app removes them from the device.</p>
+<p>These records leave the device only when you export them yourself (see <em>Files you save</em>) or through your device's own Android backup, which may copy the app's data to your Google Drive under your Google account's backup settings. The app allows that backup only when it is end-to-end encrypted, or when you move the data directly to a new phone, and we never receive these copies. Uninstalling the app removes them from the device.</p>
 
 <h2>Information we do not collect</h2>
 <p>The app does not collect, store or transmit names, email addresses, phone numbers, contacts, photos, audio, precise or approximate location, advertising identifiers or browsing history. It has no advertising, no analytics or crash-reporting service, and no social features. The app loads no content from the internet while it runs; every lesson, list and voice prompt is included in the app.</p>
 
 <h2>Purchases: Google Play and RevenueCat</h2>
 <p>Piggie Plus is sold through Google Play Billing. Google processes the payment under the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>; we never see payment details.</p>
-<p>To check whether a device is entitled to Piggie Plus, the app uses RevenueCat, a subscription-management service. When a purchase is made or checked, the app sends RevenueCat:</p>
+<p>To check whether a device is entitled to Piggie Plus, the app uses RevenueCat, a purchase-management service. When a purchase is made or checked, the app sends RevenueCat:</p>
 <table>
   <tr><th>Data</th><th>Why</th></tr>
-  <tr><td>the purchase receipt (token) and product identifier from Google Play</td><td>to confirm the purchase and its renewal or expiry</td></tr>
+  <tr><td>the purchase receipt (token) and product identifier from Google Play</td><td>to confirm the purchase, restore it after the app is reinstalled, and learn whether it was refunded</td></tr>
   <tr><td>a random identifier that the app generates on the device (it is not linked to a Google account, name or email)</td><td>to associate purchases with the device so that Plus can be restored</td></tr>
   <tr><td>the app version, platform and operating-system version, the device's brand, model and locale, and the Google Play storefront country</td><td>so the service can answer with the right products and prices</td></tr>
 </table>
-<p>RevenueCat keeps this purchase history on our behalf. It is encrypted in transit and is used only to run the subscription and to show us aggregate sales figures. It is not sold and not used for advertising. RevenueCat's own policy is at <a href="https://www.revenuecat.com/privacy">revenuecat.com/privacy</a>. To have a device's purchase record deleted, contact us (below); deleting it does not cancel a subscription, which is managed in Google Play.</p>
+<p>RevenueCat keeps this purchase history on our behalf. It is encrypted in transit and is used only to run Piggie Plus and to show us aggregate sales figures. It is not sold and not used for advertising. RevenueCat's own policy is at <a href="https://www.revenuecat.com/privacy">revenuecat.com/privacy</a>. To have a device's purchase record deleted, contact us (below); deleting it does not refund the purchase, which Google Play handles.</p>
 <p>Every purchase sits behind a grown-up check, and Google Play applies the purchase approval settings of the Google account on the device.</p>
 
 <h2>Children's privacy</h2>
-<p>Piggie Spelling Bee is made for children in Grade 1 and Grade 2 and is used with the help of a parent or teacher. We do not knowingly collect personal information from children. The app asks for no personal details (an optional profile name typed in Settings stays on the device and in backups you save), has no account, no chat and no sharing. If you believe a child has sent us personal information in some other way, contact us and we will delete it.</p>
+<p>Piggie Spelling Bee is made for children in Grade 1 and Grade 2 and is used with the help of a parent or teacher. We do not knowingly collect personal information from children. The app asks for no personal details (an optional profile name typed in Settings stays on the device, in backups you save and in the encrypted Android backup), has no account, no chat and no sharing. If you believe a child has sent us personal information in some other way, contact us and we will delete it.</p>
 
 <h2>Speech</h2>
 <p>Words are read aloud by the text-to-speech engine installed on the device (on most Android devices, Google's). The app sends the words to that engine on the device; nothing is recorded, and the app has no microphone permission. If your text-to-speech engine downloads voices, that happens under the engine's own policy.</p>
@@ -65,7 +65,7 @@
 <p>Progress backups and word-list exports are created only when you ask for them and are saved to the location you choose in the system "Save as" sheet. Importing a word list reads only the file you pick. These files are yours; the app keeps no copy.</p>
 
 <h2>Permissions</h2>
-<p>The app requests internet access, which it uses only for Google Play purchases and the entitlement check described above. It requests no other permission.</p>
+<p>The app requests internet and network-state access, which it uses only for Google Play purchases and the entitlement check described above, and the Google Play billing permission. It requests no other permission.</p>
 
 <h2>Security</h2>
 <p>On-device records are protected by Android's app sandbox. Purchase data is sent over encrypted connections.</p>
